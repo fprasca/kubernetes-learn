@@ -17,3 +17,6 @@ docker images
 docker build -t hello-internet .
 docker run -d -p 80:80 [image_id]
 docker ps
+docker ps -a
+docker rm [name_of_container]
+docker rmi [image_id]
