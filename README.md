@@ -18,7 +18,15 @@ Architecture of a Kubernetes cluster
 ## Tutorials
 Video I watched to learn about k8s: [YouTube](https://youtu.be/7bA0gTroJjw?si=pjLvUtUuKT6ATTXX)
 
-# Common kubectl commands
+## Steps to connect to master node
+1. install kubectl on your machine
+2. run nano or vim, create file call kubeconfig.yml
+3. copy/paste kubeconfig of k8 cluster into your kubeconfig.yml
+4. add environment variable KUBECONFIG=kubeconfig.yml
+5. start running kubectl commands!
+
+
+## Common kubectl commands
 
 - kubectl cluster-info
 - kubectl describe pods
