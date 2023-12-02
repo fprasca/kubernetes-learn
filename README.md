@@ -36,5 +36,5 @@ Video I watched to learn about k8s: [YouTube](https://youtu.be/7bA0gTroJjw?si=pj
 - kubectl get pods
 - kubectl get pods -o wide
 - kubectl get services
-- kubectl apply -f example-service.yml
 - kubectl run mytestpod --image=thenetworkchuck/nccoffee:pourover --port=80
+- kubectl apply -f example-service.yml
