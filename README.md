@@ -1,5 +1,9 @@
 # kubernetes-learn
 
+Architecture of a Kubernetes cluster
+
+![overview](images/k8_arch.drawio.png "k8 arch")
+
 # common kubectl commands
 
 - kubectl cluster-info
