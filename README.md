@@ -15,7 +15,8 @@ Architecture of a Kubernetes cluster
 - Kubelet - talks to the API server and manages containers on its node.
 - Kube-proxy - load-balances network traffic between application components.
 
-Tutorial I watched to learn about k8s: [YouTube](https://youtu.be/7bA0gTroJjw?si=pjLvUtUuKT6ATTXX)
+## Tutorials
+Video I watched to learn about k8s: [YouTube](https://youtu.be/7bA0gTroJjw?si=pjLvUtUuKT6ATTXX)
 
 # Common kubectl commands
 
