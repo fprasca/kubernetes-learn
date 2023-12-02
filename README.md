@@ -10,7 +10,7 @@ Architecture of a Kubernetes cluster
 - Controller Manager - performs cluster-level functions, such as, replicating components, keeping track of worker nodes, handling node failures, etc.
 - etcd - data store that persistently stores the cluster configuration.
 
-## Woker Node
+## Worker Node
 - Docker - container runtime, what runs your containers.
 - Kubelet - talks to the API server and manages containers on its node.
 - Kube-proxy - load-balances network traffic between application components.
